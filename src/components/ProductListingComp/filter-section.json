@@ -1,0 +1,54 @@
+{
+    "filterSections": [
+        {
+            "title": "Sweets",
+            "items": [
+                { "name": "Selected", "number": "(78)"},
+                { "name": "Option", "number": "(28)"},
+                { "name": "Selected", "number": "(9)"},
+                { "name": "Option", "number": "(12)"},
+                { "name": "Option", "number": "(10)"}
+            ]
+        }, 
+        {
+            "title": "Pastry",
+            "items": [
+                { "name": "This", "number": "(50)"},
+                { "name": "This", "number": "(32)"},
+                { "name": "That", "number": "(6)"},
+                { "name": "That", "number": "(2)"},
+                { "name": "That", "number": "(45)"}
+            ]
+        },
+        {
+            "title": "Candy",
+            "items": [
+                { "name": "Selected", "number": "(78)"},
+                { "name": "Option", "number": "(28)"},
+                { "name": "Selected", "number": "(9)"},
+                { "name": "Option", "number": "(12)"},
+                { "name": "Option", "number": "(10)"}
+            ]
+        },
+        {
+            "title": "Sweets",
+            "items": [
+                { "name": "Selected", "number": "(78)"},
+                { "name": "Option", "number": "(28)"},
+                { "name": "Selected", "number": "(9)"},
+                { "name": "Option", "number": "(12)"},
+                { "name": "Option", "number": "(10)"}
+            ]
+        }, 
+        {
+            "title": "Sweets",
+            "items": [
+                { "name": "Selected", "number": "(78)"},
+                { "name": "Option", "number": "(28)"},
+                { "name": "Selected", "number": "(9)"},
+                { "name": "Option", "number": "(12)"},
+                { "name": "Option", "number": "(10)"}
+            ]
+        }
+    ]
+}

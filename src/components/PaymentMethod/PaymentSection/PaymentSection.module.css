@@ -1,0 +1,38 @@
+.paymentSection h2 {
+    margin-bottom: 25px;
+}
+
+.paymentSection__options {
+    background-color: #fff;
+    max-width: 525px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #D8E1E8;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.paymentSection__methods {
+    padding: 25px 100px 65px 100px;
+}
+
+.paymentSection__methods button {
+    width: 320px;
+    justify-content: center;
+}
+
+.paymentSection__text {
+    color: #98A8B3;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.paymentSection__cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.paymentSection__cardsImg {
+    display: flex;
+    gap: 7px;
+}

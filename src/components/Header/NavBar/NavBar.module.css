@@ -1,0 +1,35 @@
+
+.navLink {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #30404D;
+    background-color: transparent;
+    padding: 0.6rem 1rem;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.navLink:hover, .navLink:focus {
+    background-color: #fff;
+    border: 1px solid #CED9E0; 
+
+}
+
+.hasChildren::after {
+    content: url("/arrow-down.svg");
+    margin-left: 0.5rem;
+    vertical-align: middle;
+    display: inline-flex;
+    height: 16px;
+}
+
+.navigation {
+    display:flex;
+}
+
+.dropdown {
+    position: relative;
+
+}

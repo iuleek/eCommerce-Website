@@ -1,0 +1,19 @@
+.container__iner {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 55px;
+}
+
+.container__left {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #BFCCD6;
+    max-width: 525px;
+    overflow: hidden;
+    border-top: none;
+}
+
+.container__right {
+    display: flex;
+    flex-direction: column;
+}

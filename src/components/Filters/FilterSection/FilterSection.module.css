@@ -1,0 +1,8 @@
+
+  .filterSection {
+    min-width: 230px;
+  }
+
+  .filterSection__options {
+    display: flex;
+  }

@@ -1,0 +1,35 @@
+.mainFooter {
+    background-color: #394B59;
+    padding: 3.5rem 0 4rem 0;
+}
+
+.footerLists {
+    display: flex;
+}
+
+.footerContact {
+    display: flex;
+    gap: 140px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 0.7rem;
+}
+
+.list {
+    list-style-type: none;
+    width: 124px;
+    margin-right: 4rem;
+}
+.listItem {
+    margin-top: 0.7rem;  
+}
+
+.listLink {
+    text-decoration: none;
+    font-size: 14px;
+    color: #8A9BA8;
+}

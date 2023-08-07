@@ -1,0 +1,15 @@
+.line {
+    background-color: #D8E1E8;
+    margin: 0.5rem 0 0;
+    width: 150px;
+    height: 1.5px;
+    display: inline-flex;
+    border: 0;
+}
+
+.option {
+    color:#fff;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0.7rem;
+}

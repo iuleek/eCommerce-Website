@@ -1,0 +1,13 @@
+.contact {
+    background-color:#fff;
+    padding: 64px 0;
+}
+
+.contactBottom {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact h2 {
+    margin-top: 20px; 
+}

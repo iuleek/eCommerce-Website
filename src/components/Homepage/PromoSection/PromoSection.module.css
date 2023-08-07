@@ -1,0 +1,29 @@
+.promoSection {
+    background-color: #F5F8FA;
+    padding: 72px 0 0;
+}
+.container__inner {
+    background-image: url("/promo-background.svg");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+.leftSide {
+    margin-bottom: 190px;
+}
+
+.leftSide__paragraph {
+    color: #8A9BA8;
+    font-size: 20px;
+    margin: 20px 0 20px 0;
+}
+
+.rightSide {
+    background-color: #fff;
+    padding: 24px;
+    margin-left: 55px;
+    border-radius: 7px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 17px;
+    max-height: 390px;
+}

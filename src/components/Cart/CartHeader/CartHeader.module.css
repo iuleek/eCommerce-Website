@@ -1,0 +1,15 @@
+.cart_header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+  }
+  .title {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .linkBtn {
+    text-decoration: none;
+  }
+  

@@ -1,0 +1,45 @@
+.offerComponent {
+    padding: 20px 40px 20px 20px;
+    position: relative;
+    width: 230px;
+    height: 130px;
+    border-radius: 7px;
+}
+
+.dark {
+    background-color: #758796;
+}
+
+.light {
+    background-color: #BFCCD6;
+}
+
+.addBtn {
+    position: absolute;
+    right: 12px;
+    bottom: 12px;
+}
+
+.offerInfo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 9px;
+}
+
+.text {
+    font-size: 16px;
+    color: #758796;
+}
+
+.separator {
+    color: #BFCCD6;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: 600;   
+}
+
+.price::before {
+    content: url("/dollar-sign-little.svg");
+}

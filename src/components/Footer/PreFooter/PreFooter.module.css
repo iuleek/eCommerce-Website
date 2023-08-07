@@ -1,0 +1,10 @@
+.preFooter {
+    background-color: #202B33;
+    padding: 1.3rem 0;
+}
+.container__inner {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+

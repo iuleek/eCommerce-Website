@@ -1,0 +1,17 @@
+{
+    "productListing": [
+       
+                {  "id": 1,"name": "Berberana Red Dragon Tempranillo", "price": "8.90", "img": "https://placehold.co/300x250", "discount": "30%" },
+                {  "id": 2,"name": "Berberana Red Dragon Tempranillo", "price": "8.90", "img": "https://placehold.co/300x250", "discount": "20%" },
+                {  "id": 3,"name": "Berberana Red Dragon Tempranillo", "price": "8.90", "img": "https://placehold.co/300x250" },
+                {  "id": 4,"name": "Berberana Red Dragon Tempranillo", "price": "8.90", "img": "https://placehold.co/300x250" },
+                {  "id": 5,"name": "Berberana Red Dragon Tempranillo", "price": "8.90", "img": "https://placehold.co/300x250", "discount": "30%" },
+                {  "id": 6,"name": "Berberana Red Dragon Tempranillo", "price": "8.90", "img": "https://placehold.co/300x250", "discount": "15%" },
+                {  "id": 7,"name": "Berberana Red Dragon Tempranillo", "price": "8.90", "img": "https://placehold.co/300x250", "discount": "25%" },
+                {  "id": 8,"name": "Berberana Red Dragon Tempranillo", "price": "8.90", "img": "https://placehold.co/300x250", "discount": "30%" },
+                {  "id": 9,"name": "Berberana Red Dragon Tempranillo", "price": "8.90", "img": "https://placehold.co/300x250" },
+                {  "id": 10,"name": "Berberana Red Dragon Tempranillo", "price": "8.90", "img": "https://placehold.co/300x250", "discount": "70%" },
+                {  "id": 11,"name": "Berberana Red Dragon Tempranillo", "price": "8.90", "img": "https://placehold.co/300x250" },
+                {  "id": 12,"name": "Berberana Red Dragon Tempranillo", "price": "8.90", "img": "https://placehold.co/300x250", "discount": "30%"}
+            ]
+}

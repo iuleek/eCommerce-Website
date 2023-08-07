@@ -1,0 +1,11 @@
+.heroHeader {
+    background-color: #F5F8FA;
+    padding: 95px 0 0 0;
+}
+
+.container__inner {
+    display: flex;
+    background-image: url(/promo-background.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}

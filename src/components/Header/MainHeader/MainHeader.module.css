@@ -1,0 +1,15 @@
+.mainHeader {
+    background-color: #EBF1F5;
+    padding: 1rem 0;
+}
+
+.options {
+    display: flex;
+    vertical-align: bottom;
+}
+
+.container__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,23 @@
+.banner_small {
+    padding-top: 55px;
+    background-color: #f5f8fa;
+    overflow: hidden;
+  }
+  .banner_inner {
+    text-align: end;
+    position: relative;
+  }
+  
+  .banner_inner img {
+    margin-bottom: -10px;
+  }
+  .banner_inner a {
+    position: absolute;
+    top: -30px;
+    left: -200px;
+    text-decoration: none;
+  }
+  .banner_inner button img {
+    margin-bottom: 0;
+  }
+  

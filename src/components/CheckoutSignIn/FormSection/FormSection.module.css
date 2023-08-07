@@ -1,0 +1,10 @@
+.formSection {
+    display: block;
+    border: 1px solid #D8E1E8;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.wrapper h2 {
+    margin-bottom: 24px;
+}

@@ -1,0 +1,18 @@
+.categoryGrid {
+    background-color: #fff;
+    padding: 3.5rem 0;
+}
+
+.categoryWrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 32px;
+}
+
+.bigItem {
+    grid-row: span 2;
+}
+
+.smallItem {
+    grid-row: span 1;
+}

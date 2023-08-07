@@ -1,0 +1,42 @@
+.guestHeader {
+    display: flex;
+}
+
+.deliveryHeader__link {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.deliveryHeader__btn {
+    background-color: #F5F8FA;
+    color: #5C7080;
+    padding: 10px 15px;
+    border-radius: 100px;
+    display: flex;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.deliveryHeader__btn::before {
+    content: url("/arrow-left-black.svg");
+    margin-right: 5px;
+}
+
+.deliveryHeader__line {
+    max-width: 330px;
+    margin: 25px;
+    border-top: 0.5px solid #E5EAEE;
+}
+
+.deliveryHeader__img {
+    margin-right: 10px;
+}
+
+.deliveryHeader__title {
+    display: flex;
+    margin-bottom: 25px;
+    gap: 10px;
+}

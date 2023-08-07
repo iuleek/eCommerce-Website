@@ -1,0 +1,11 @@
+.filtersApplied {
+    display: flex;
+    flex-direction: column;
+}
+
+.filtersApplied__top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    align-items: flex-end;
+}

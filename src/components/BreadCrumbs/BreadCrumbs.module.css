@@ -1,0 +1,34 @@
+.breadCrumbsWrapper {
+    border-bottom: 1px solid #D8E1E8;
+}
+
+.breadCrumbs {
+    display: flex;
+    align-items: center;
+    padding: 25px 0;
+}
+.breadCrumbs__link::before {
+    content: url("/breadcrumb-arrow.svg");
+    height: 14px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.breadCrumbs__link {
+    display: inline-flex;
+    align-items: center;
+}
+
+.breadCrumbs a:last-of-type {
+    color: #8A9BA8;
+}
+
+.breadCrumbs a:first-of-type::before {
+    display: none;
+}
+
+.breadCrumbs__link {
+    text-decoration: none;
+    color: #30404D;
+    text-transform: capitalize;
+}

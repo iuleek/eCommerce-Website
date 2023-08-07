@@ -1,0 +1,148 @@
+/* .sliderItem {
+    display: grid;
+    width: 250px;
+}
+.sliderImage {
+    width: 100%;
+    height: auto;
+}
+.sliderInfo {
+    background-color: #fff;
+    padding: 16px 20px 20px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border: 1px solid #D8E1E8;
+}
+.sliderInfo__text {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #8A9BA8;
+    font-weight:500;
+}
+
+.pricing {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.prevPrice {
+    color: #8A9BA8;
+    font-size: 16px;
+}
+
+.currPrice {
+    font-size: 24px;
+    font-weight: 500;
+    color: #394B59;
+}
+
+.discount {
+    background-color: #8A9BA8; 
+    padding: 4px 8px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+}
+
+/* .currPrice::before {
+    content: url("/dollar-sign.svg");
+    padding: 2px 0;
+
+
+.card__bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__top {
+    overflow: hidden;
+    position: relative;
+    height: 176px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border: 1px solid #D8E1E8;
+    border-bottom: none;
+} */
+
+.product_card {
+    border: 1px solid #d8e1e8;
+    border-radius: 8px;
+    width: 246px;
+    display: inline-block;
+  }
+  .card_top {
+    position: relative;
+    height: 173px;
+    background-color: #fff;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    overflow: hidden;
+  }
+  .card_top img {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 100%;
+    height: auto;
+  }
+  .discount {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    background-color: #8a9ba8;
+    padding: 4px 8px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 600;
+  }
+  .card_body {
+    background-color: #fff;
+    padding: 16px 20px 20px 20px;
+    border-top: 1px solid #d8e1e8;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  .card_title {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #8a9ba8;
+    transition: all 0.3s ease-in-out;
+  }
+  .card_title:hover {
+    color: #394b59;
+  }
+  
+  .card_bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .original_price {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #8a9ba8;
+    margin-right: 5px;
+  }
+  .current_price {
+    font-size: 24px;
+    font-weight: 600;
+    color: #394b59;
+  }
+  .sup {
+    font-size: 20px;
+  }
+  .dollar {
+    font-size: 18px;
+  }
+  

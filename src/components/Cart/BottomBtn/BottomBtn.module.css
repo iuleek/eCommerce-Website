@@ -1,0 +1,11 @@
+.bottom_btn {
+    padding: 45px 0;
+  }
+  .bottom_btn button {
+    margin: 0 auto;
+    padding: 16px 24px;
+  }
+  
+  .linkBtn {
+    text-decoration: none;
+  }

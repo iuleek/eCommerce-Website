@@ -1,0 +1,13 @@
+.banner {
+    background-color: #fff;
+    padding: 24px 30px;
+    max-width: 432px;
+    margin-bottom: 30px;
+    border: 1px solid #D8E1E8;
+    border-radius: 7px;
+}
+
+.banner__category {
+    margin-bottom: 13px;
+    color: #A7B6C2;
+}

@@ -1,0 +1,20 @@
+.description {
+    padding: 32px;
+    background-color: #fff;
+    border-top: 1px solid #8A9BA8;
+    border-bottom: 1px solid #8A9BA8;
+}
+
+.description__list {
+    display: grid;
+    margin-left: 20px;
+    gap: 10px;
+}
+
+.description__text, .description__listItem {
+    color: #8A9BA8;
+}
+
+.description__text {
+    margin: 12px 0;
+}

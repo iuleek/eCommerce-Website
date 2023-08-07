@@ -1,0 +1,45 @@
+.megaMenu {
+    background-color: #fff;
+    width: 100%;
+    position: absolute;
+    top: 110px;
+    right: 0px;
+    display: none;
+}
+
+.show {
+    display: block;
+}
+.container__inner {
+    display: flex;
+    margin: 2rem 2rem 3.5rem 0rem;
+}
+
+.headerList {
+    color: black;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #394B59;
+}
+
+.list {
+    list-style-type: none;
+    width: 150px;
+    margin-right: 2rem;
+}
+.listItem {
+    margin-top: 0.5rem;
+}
+.listLink {
+    font-size: 14px;
+    color: #30404D;
+    text-decoration: none;
+}
+
+.menuList {
+    width: 150px;
+    margin-right: 2rem;
+}

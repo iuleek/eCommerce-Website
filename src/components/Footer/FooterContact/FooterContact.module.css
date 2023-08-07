@@ -1,0 +1,18 @@
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px; 
+}
+
+.subscribe__title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 11px;
+}
+
+.subscribe__subtitle {
+    font-size: 14px;
+    color: #8A9BA8;
+    margin-bottom: 11px;
+}

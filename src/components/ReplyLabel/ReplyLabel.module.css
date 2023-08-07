@@ -1,0 +1,21 @@
+.label {
+    background-color: #8A9BA8;
+    padding: 8px 12px;
+    border-radius: 7px;
+}
+
+.text {
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 8px;
+}
+
+/* .text::before {
+    content: url("/quick-reply-icon.svg");
+    margin-right: 8px;
+} */

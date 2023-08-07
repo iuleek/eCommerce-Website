@@ -1,0 +1,27 @@
+.deliverySection button {
+    width: 330px;
+    display: flex;
+    justify-content: center;
+}
+
+.deliverySection h2 {
+    margin-bottom: 25px;
+}
+
+.deliverySection__options {
+    background-color: #fff;
+    max-width: 525px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #D8E1E8;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.deliverySection__methods {
+    padding: 25px 100px 65px 100px;
+}
+
+.deliverySection__link {
+    text-decoration: none;
+}

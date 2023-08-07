@@ -1,0 +1,24 @@
+.cart_subtotal {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 40px;
+    background-color: #fff;
+    border-radius: 16px 16px 0 0;
+  }
+  .subtotalTitle {
+    color: #8a9ba8;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .price {
+    color: #394b59;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.7px;
+  }
+  .currency {
+    font-size: 18px;
+  }
+  

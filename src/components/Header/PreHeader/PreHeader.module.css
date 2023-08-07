@@ -1,0 +1,17 @@
+.preHeader {
+    background-color: #394B59;
+    color: #fff;
+    font-size: 14px;
+    line-height: 32px;
+}
+
+.container__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.secondaryNav {
+    display: inline-flex;
+    gap: 1.5rem;
+}

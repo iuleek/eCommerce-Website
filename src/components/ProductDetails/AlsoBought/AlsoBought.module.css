@@ -1,0 +1,14 @@
+.bought {
+    margin-top: 40px;
+}
+
+.bought__items {
+    display: flex;
+    gap: 20px;
+}
+
+.bought__text {
+    font-size: 16px;
+    color: #30404D;
+    margin-bottom: 12px;
+}

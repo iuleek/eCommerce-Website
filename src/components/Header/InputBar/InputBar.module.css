@@ -1,0 +1,12 @@
+.barStyle {
+    border-radius: 10px;
+    border: 0.5px solid #CED9E0;
+    background-image: url("/search.svg");
+    background-position: left 16px center;
+    background-repeat: no-repeat;
+    color: #8A9BA8;
+    padding: 0.75rem 1rem 0.75rem 3rem;
+    width: 415px;
+    height: 40px;
+    font-size: 14px;
+}

@@ -1,0 +1,8 @@
+.imageWrapper {
+    padding: 10px 12px;
+    border-radius: 50%;
+    background-color: #41515e;
+    vertical-align: middle;
+    display: inline-flex;
+    margin-right: 10px;
+}

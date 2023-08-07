@@ -1,0 +1,5 @@
+.layoutProducts {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 0 130px 0;
+}

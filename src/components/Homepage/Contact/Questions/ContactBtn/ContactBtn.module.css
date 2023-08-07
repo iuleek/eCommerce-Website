@@ -1,0 +1,15 @@
+.contactBtn {
+    background-color: #E5EAEE;
+    border: none;
+    padding: 16px;
+    min-width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+    color: #30404D;
+    font-weight: 500;
+    font-size: 16px;
+}

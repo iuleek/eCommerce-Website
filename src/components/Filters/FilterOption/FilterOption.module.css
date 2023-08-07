@@ -1,0 +1,53 @@
+.filterBtn {
+    background-color: #F5F8FA;
+    padding: 12px 16px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    color: #30404D;
+    transition: all 0.3s ease-in-out;
+    margin-top: 16px;
+    cursor: pointer;
+    display: inline-flex;
+}
+
+.filterBtn:hover, .filterBtn.isActive {
+    background-color: #CED9E0;
+    border: 1px solid #A7B6C2;
+}
+
+.filterBtn.isApplied {
+    background-color: #fff;
+    border: 1px solid #CED9E0;
+    margin-right: 16px;
+    padding: 8px 12px;
+}
+
+.filterBtn.isApplied:hover {
+    background-color: #E5EAEE;
+    border: 1px solid #5C7080;
+
+}
+
+.filterBtn.isApplied::after {
+    content: url("/check-icon.svg");
+    margin-left: 8px;
+    height: 16px;
+}
+
+.filterBtn.isApplied:hover::after {
+    content: url("/delete-icon.svg");
+    margin-left: 8px;
+    height: 16px;
+}
+
+
+.filterBtn.isCancelled {
+    background-color: #E5EAEE;
+    border: 1px solid #5C7080;
+}
+
+.filterBtn.isCancelled::after {
+    content: url("/delete-icon.svg");
+    margin-left: 8px;
+    height: 16px;
+} 

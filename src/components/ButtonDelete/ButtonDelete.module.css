@@ -1,0 +1,13 @@
+.wrapper_delete_price {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .wrapper_delete_price button {
+    align-self: end;
+  }
+  .btn_delete {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+  }

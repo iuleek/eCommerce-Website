@@ -1,0 +1,11 @@
+.offerBtn {
+    background-color: #EBF1F5;
+    color: #5C7080;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 10px 24px;
+    border-radius: 25px;
+    border: none;
+    margin: 20px 0;
+    cursor: pointer;
+}

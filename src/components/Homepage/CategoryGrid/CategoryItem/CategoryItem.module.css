@@ -1,0 +1,11 @@
+.categoryItem {
+    background-color: #EBF1F5;
+    padding: 24px 90px 32px 32px;
+    border-radius: 7px;
+}
+
+.categoryItem__text {
+    color: #5C7080;
+    font-size: 20px;
+    margin-bottom: 16px;;
+}

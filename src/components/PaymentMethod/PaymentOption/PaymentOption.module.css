@@ -1,0 +1,42 @@
+.paymentOption {
+    border-radius: 8px;
+    border: 1px solid #8A9BA8;
+    background: #FFF;
+    margin-bottom: 16px;
+    display: flex;
+    padding: 12px 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.paymentOption__link {
+    text-decoration: none;
+}
+
+.paymentOption__left {
+    display: flex;
+    align-items: center;
+}
+.paymentOption:hover {
+    box-shadow: 0px 2px 6px 0px rgba(16, 22, 26, 0.20), 0px 1px 1px 0px rgba(16, 22, 26, 0.20), 0px 0px 0px 0px rgba(16, 22, 26, 0.10);
+}
+
+.paymentOption__imgWrapper {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 7px;
+}
+
+.paymentOption__text {
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.paymentOption__radioBtn {
+    accent-color: #30404D;
+}

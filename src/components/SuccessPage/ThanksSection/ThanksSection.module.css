@@ -1,0 +1,63 @@
+.thanksSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #D8E1E8;
+    width: 525px;
+    overflow: hidden;
+}
+
+.thanksSection__header {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 24px;
+    width: 525px;
+    border-bottom: 1px solid #D8E1E8;
+}
+
+.header__circle {
+    border-radius: 100px;
+    background: #30404D;
+    display: flex;
+    width: 32px;
+    height: 32px;
+    padding: 7px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__text {
+    color: #6A6A6A;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.thanksSection__body {
+    margin: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 330px;
+    gap: 24px;
+}
+
+.body_smallText {
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.thanksSection a {
+    margin-bottom: 85px;
+}
+
+.leftSide h2 {
+    margin-bottom: 25px;
+}

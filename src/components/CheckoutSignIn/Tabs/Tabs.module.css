@@ -1,0 +1,20 @@
+.tabs {
+    display: flex;
+}
+
+.tabBtn {
+    color: #394B59;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #fff;
+    border: none;
+    border-bottom: 4px solid #E5EAEE;
+    padding: 25px;
+    width: 265px;
+}
+
+.active {
+    background-color: #E5EAEE;
+    border: none;
+    border-bottom: 4px solid #394B59;
+}

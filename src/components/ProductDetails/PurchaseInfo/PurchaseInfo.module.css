@@ -1,0 +1,16 @@
+.purchaseInfo {
+    max-width: 350px;
+    margin-top: 20px;
+}
+
+.purchaseInfo__details {
+    color: #8A9BA8;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: 500;
+    color: #394B59;
+    margin: 5px 0 10px 0;
+}

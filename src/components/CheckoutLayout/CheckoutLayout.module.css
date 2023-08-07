@@ -1,0 +1,9 @@
+.layout {
+    display: flex;
+    gap: 33px;
+    margin-top: -110px;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 55px;
+    justify-content: center;
+}

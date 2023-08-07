@@ -1,0 +1,69 @@
+.guestForm__form {
+    max-width: 330px;
+    display: flex;
+    flex-direction: column;
+}
+.guestForm {
+    padding: 50px 100px 65px 100px;
+    display: none;
+    background-color: #fff;
+}
+.show {
+    display: block;
+}
+.formSection {
+    max-width: 330px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.guestForm__title {
+    color: #394B59;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.guestForm__title::before {
+    content: url("/user.svg");
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.guestForm__input {
+    padding: 15px;
+    color: #98A8B3;
+    margin-bottom: 15px;
+    border: 1.5px solid #E5EAEE;
+    border-radius: 8px;
+}
+
+.guestForm__line {
+    max-width: 300px;
+    margin: 20px 15px;
+    border-top: 0.5px solid #E5EAEE;
+}
+
+.guestForm__footer {
+    display: flex;
+    justify-content: space-between;
+    color: #98A8B3;
+    font-size: 14px;
+    max-width: 330px;
+    margin-top: 20px;
+}
+
+.guestForm__footer__left {
+    display: flex;
+    flex-direction: column;
+}
+
+.guestForm__footer__right {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.search {
+    max-width: 330px !important;
+}

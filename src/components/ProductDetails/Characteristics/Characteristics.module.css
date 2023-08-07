@@ -1,0 +1,41 @@
+.characteristics {
+    padding: 32px;
+    background-color: #fff;
+}
+
+.characteristics__text, .characteristics__listItem {
+    color: #8A9BA8;
+}
+
+.characteristics__listItem {
+    margin-bottom: 30px;
+}
+
+.characteristics__checkbox {
+    transform: scale(1.5);
+    margin-right: 20px;
+}
+.characteristics__inputs {
+    margin-top: 12px;
+}
+.characteristics__checkbox::before {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border: 1.5px solid #8A9BA8;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.characteristics__checkbox:checked:after {
+    content: "";
+    position: absolute;
+    left: 4px;
+    width: 5px;
+    height: 10px;
+    border: 1px solid black;
+    border-width: 0 2px 2px 0;
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
