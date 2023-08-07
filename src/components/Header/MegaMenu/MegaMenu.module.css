@@ -9,6 +9,7 @@
 
 .show {
     display: block;
+    z-index: 3;
 }
 .container__inner {
     display: flex;

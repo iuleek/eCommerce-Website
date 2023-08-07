@@ -17,6 +17,10 @@
     margin: 20px 0 20px 0;
 }
 
+.leftSide__btn {
+    text-decoration: none;
+}
+
 .rightSide {
     background-color: #fff;
     padding: 24px;

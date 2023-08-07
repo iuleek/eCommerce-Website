@@ -10,3 +10,7 @@
     font-size: 20px;
     margin-bottom: 16px;;
 }
+
+.categoryItemBig__link {
+    text-decoration: none;
+}

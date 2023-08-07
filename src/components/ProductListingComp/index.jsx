@@ -3,7 +3,6 @@ import FilterSection from "../Filters/FilterSection";
 import FiltersApplied from "../Filters/FiltersApplied";
 import HeroHeaderProduct from "./HeroHeaderProduct";
 import LayoutProductListing from "./LayoutProductListing";
-import SortProducts from "./SortProducts";
 import data from './filter-section.json'
 
 export default function ProductListingComp() {

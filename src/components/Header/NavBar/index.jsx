@@ -29,7 +29,7 @@ export default function NavBar() {
             <div className={styles.navigation}>
                 <NavLink style={`${styles.navLink} ${styles.hasChildren}`} text="Foods" handleClick={toggleDropdown} />
                 <NavLink style={`${styles.navLink} ${styles.hasChildren}`} text="Products" handleClick={toggleDropdown} />
-                <NavLink style={styles.navLink} text="Deals" isLink={true} />
+                <NavLink style={styles.navLink} text="Deals" isLink={true} redirect="/product-listing" />
             </div>
             <MegaMenu dropDownObject={dropDownObjectEx} show={activeDropdown === "Foods"} />
             <MegaMenu dropDownObject={dropDownObjectEx2} show={activeDropdown === "Products"} />

@@ -4,6 +4,7 @@ import Title from '@/components/Title';
 import Button from '@/components/Button';
 import OfferButton from './OfferButton';
 import OfferItem from './OfferItem';
+import Link from 'next/link';
 
 export default function PromoSection() {
     return (
@@ -19,11 +20,13 @@ export default function PromoSection() {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Purus, vitae ante risus quis cursus aliquam consectetur.
                         </p>
+                        <Link className={styles.leftSide__btn} href="/product-listing">
                         <Button
                             style="btnDark btnLarge"
                             text="More for less — check it out"
                             imgPosition=""
                         />
+                        </Link>
                     </div>
                     <div className={styles.rightSide}>
                         <OfferItem style="dark" text="Party Must-Haves" price="8.99" imgSource="/product-image-white.svg"/>

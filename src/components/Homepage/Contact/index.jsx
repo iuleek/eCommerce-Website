@@ -5,7 +5,7 @@ import Questions from './Questions';
 
 export default function Contact() {
     return (
-        <div className={styles.contact}>
+        <div id="contact" className={styles.contact}>
             <div className='container'>
                 <Title level={2}>Any questions? Just ask.</Title>
                 <Title level={4}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Title>

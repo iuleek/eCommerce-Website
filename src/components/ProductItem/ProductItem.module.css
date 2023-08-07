@@ -1,74 +1,3 @@
-/* .sliderItem {
-    display: grid;
-    width: 250px;
-}
-.sliderImage {
-    width: 100%;
-    height: auto;
-}
-.sliderInfo {
-    background-color: #fff;
-    padding: 16px 20px 20px;
-    border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px;
-    border: 1px solid #D8E1E8;
-}
-.sliderInfo__text {
-    margin-bottom: 20px;
-    font-size: 16px;
-    color: #8A9BA8;
-    font-weight:500;
-}
-
-.pricing {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
-
-.prevPrice {
-    color: #8A9BA8;
-    font-size: 16px;
-}
-
-.currPrice {
-    font-size: 24px;
-    font-weight: 500;
-    color: #394B59;
-}
-
-.discount {
-    background-color: #8A9BA8; 
-    padding: 4px 8px;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 14px;
-    font-weight: 500;
-    position: absolute;
-    bottom: 16px;
-    left: 16px;
-}
-
-/* .currPrice::before {
-    content: url("/dollar-sign.svg");
-    padding: 2px 0;
-
-
-.card__bottom {
-    display: flex;
-    justify-content: space-between;
-}
-
-.card__top {
-    overflow: hidden;
-    position: relative;
-    height: 176px;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
-    border: 1px solid #D8E1E8;
-    border-bottom: none;
-} */
-
 .product_card {
     border: 1px solid #d8e1e8;
     border-radius: 8px;
@@ -83,6 +12,7 @@
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     overflow: hidden;
+    text-decoration: none;;
   }
   .card_top img {
     position: relative;

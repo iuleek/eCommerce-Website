@@ -18,6 +18,7 @@
   max-width: 710px;
   margin: 0 auto;
 }
+
 /****************** Button styles ******************/
 
 .btnLarge {
@@ -41,6 +42,11 @@
     border-radius: 7px;
     display: flex;
     align-items: center;
+}
+
+.btnDark:hover {
+  background-color: #798ea0;
+  transition: all 0.3s ease-in-out;
 }
 
 .btnLight__white {
@@ -78,6 +84,9 @@
   display: flex;
   align-items: center;
 }
+
+/****************** END Button styles ******************/
+
 /*********** TAG styles ***********/
 
 .light {
@@ -91,8 +100,10 @@
   display: inline-flex;
 }
 
+/*********** END TAG styles ***********/
 
 /********* SWIPER HOMEPAGE *********/
+
 .wrapper__swiper__homepage .swiper {
     margin-bottom: 75px;
     overflow-y: visible !important;

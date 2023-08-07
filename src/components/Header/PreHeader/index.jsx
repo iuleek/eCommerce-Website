@@ -11,8 +11,8 @@ export default function PreHeader() {
             <Email address="info@dutchie.nt" />
             <Discount offer="40% off dutch sweets" time=" only today!" />
             <div className={styles.secondaryNav}>
-                <SecondaryNavItem text="Contact" />
-                <SecondaryNavItem text="FAQ" />
+                <SecondaryNavItem text="Contact" location="/#contact" />
+                <SecondaryNavItem text="FAQ" location="/#contact"/>
             </div>
             </div>
             </div>

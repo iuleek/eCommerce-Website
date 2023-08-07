@@ -7,6 +7,11 @@
     cursor: pointer;
 }
 
+.contactBtn:hover {
+    background-color: #b6bcc2;
+    transition: all 0.3s ease-in-out;
+}
+
 .link {
     text-decoration: none;
     color: #30404D;

@@ -9,3 +9,7 @@
     font-size: 20px;
     margin-bottom: 16px;;
 }
+
+.categoryItem__link {
+    text-decoration: none;
+}
