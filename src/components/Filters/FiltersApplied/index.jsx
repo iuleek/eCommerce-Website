@@ -1,27 +1,30 @@
 import SortProducts from '@/components/ProductListingComp/SortProducts';
-import FilterOption from '../FilterOption';
 import styles from './FiltersApplied.module.css'
 import Products from '@/components/ProductListingComp/Products';
+import { useContext } from 'react';
+import { FiltersContext } from '@/components/Context/FiltersContext';
+import AppliedOption from './AppliedOption';
 
 export default function FiltersApplied() {
-    // function cancelled() {
-    //     let isCancelled = true;
-    //     return isCancelled;
-    // }
+    const { filters } = useContext(FiltersContext);
+    console.log(filters);
 
     return (
         <div className={styles.filtersApplied}>
             <div className={styles.filtersApplied__top}>
-            <div>
-                <p>Applied filters:</p>
                 <div>
-                    <FilterOption text="Option 1" isApplied={true} />
-                    <FilterOption text="Option 2" isApplied={true} />
-                    <FilterOption text="Option 3" isApplied={true} />
-                </div>
+                    <p>Applied filters:</p>
+                    <div>
+                        {filters.map((filter) => (
+                            <AppliedOption
+                                key={filter.id}
+                                text={filter.text}
+                                id={filter.id} />
+                        ))}
+                    </div>
                 </div>
                 <SortProducts />
-            </div>     
+            </div>
             <Products />
         </div>
     );

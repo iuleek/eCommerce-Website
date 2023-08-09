@@ -1,6 +1,8 @@
+import React from 'react';
 import styles from './BreadCrumbs.module.css'
 import { useRouter } from 'next/router';
 import Link from 'next/link';
+
 
 export default function BreadCrumbs() {
     const router = useRouter();

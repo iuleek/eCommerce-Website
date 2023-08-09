@@ -1,6 +1,5 @@
 import styles from './AlsoBought.module.css'
 import ProductItemSmall from '@/components/ProductItemSmall'
-import { CartContext } from '@/components/Context/CartContext';
 
 export default function AlsoBought() {
     return (
