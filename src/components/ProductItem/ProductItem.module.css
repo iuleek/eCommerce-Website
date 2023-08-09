@@ -47,6 +47,8 @@
     font-weight: 600;
     color: #8a9ba8;
     transition: all 0.3s ease-in-out;
+    display: flex;
+    height: 45px;
   }
   .card_title:hover {
     color: #394b59;

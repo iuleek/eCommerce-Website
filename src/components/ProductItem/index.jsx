@@ -2,9 +2,12 @@ import styles from "./ProductItem.module.css";
 import Link from "next/link";
 import QuantityButton from '../QuantityButton'
 
-export default function ProductCard(props) {
-  const { id, img, discount, title, originalPrice, currPrice } = props;
-
+export default function ProductCard({ id, img, discount, title, currPrice }) {
+  const props = { id, img, discount, title, currPrice } ;
+  
+  let disc = parseFloat(discount) / 100;
+  let originalPrice = (parseFloat(currPrice)/(1-disc)).toFixed(2);
+  
   return (
     <div className={styles.product_card}>
         <div className={styles.card_top}>
@@ -19,7 +22,7 @@ export default function ProductCard(props) {
         <div className={styles.card_bottom}>
           <p className={styles.current_price}>
             <span className={styles.original_price}>
-              <s>{originalPrice}</s>
+              {discount &&<s>{originalPrice}</s>}
             </span>
             <span className={styles.dollar}>$</span>
             <span>{currPrice}</span>

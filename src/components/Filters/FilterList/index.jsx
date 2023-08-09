@@ -2,8 +2,6 @@ import styles from './FilterList.module.css'
 import FilterOption from '../FilterOption'
 
 export default function FilterList({data}) {
-    // const { state, dispatch } = useFiltersContextProvider();
-    // const { filters } =  state;
     return (
         <details className={styles.customDetails}>
             <summary className={styles.customDetails__title}>{data.title}</summary>

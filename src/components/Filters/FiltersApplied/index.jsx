@@ -7,7 +7,6 @@ import AppliedOption from './AppliedOption';
 
 export default function FiltersApplied() {
     const { filters } = useContext(FiltersContext);
-    console.log(filters);
 
     return (
         <div className={styles.filtersApplied}>
