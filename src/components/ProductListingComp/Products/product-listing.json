@@ -1,17 +1,29 @@
 {
     "productListing": [
        
-                {  "id": 1,"name": "Berberana Red Dragon Tempranillo", "price": "8.90", "img": "https://placehold.co/300x250", "discount": "30%" },
-                {  "id": 2,"name": "Berberana Red Dragon Tempranillo", "price": "8.90", "img": "https://placehold.co/300x250", "discount": "20%" },
-                {  "id": 3,"name": "Berberana Red Dragon Tempranillo", "price": "8.90", "img": "https://placehold.co/300x250" },
-                {  "id": 4,"name": "Berberana Red Dragon Tempranillo", "price": "8.90", "img": "https://placehold.co/300x250" },
-                {  "id": 5,"name": "Berberana Red Dragon Tempranillo", "price": "8.90", "img": "https://placehold.co/300x250", "discount": "30%" },
-                {  "id": 6,"name": "Berberana Red Dragon Tempranillo", "price": "8.90", "img": "https://placehold.co/300x250", "discount": "15%" },
-                {  "id": 7,"name": "Berberana Red Dragon Tempranillo", "price": "8.90", "img": "https://placehold.co/300x250", "discount": "25%" },
-                {  "id": 8,"name": "Berberana Red Dragon Tempranillo", "price": "8.90", "img": "https://placehold.co/300x250", "discount": "30%" },
-                {  "id": 9,"name": "Berberana Red Dragon Tempranillo", "price": "8.90", "img": "https://placehold.co/300x250" },
-                {  "id": 10,"name": "Berberana Red Dragon Tempranillo", "price": "8.90", "img": "https://placehold.co/300x250", "discount": "70%" },
-                {  "id": 11,"name": "Berberana Red Dragon Tempranillo", "price": "8.90", "img": "https://placehold.co/300x250" },
-                {  "id": 12,"name": "Berberana Red Dragon Tempranillo", "price": "8.90", "img": "https://placehold.co/300x250", "discount": "30%"}
+                {  "id": 1,"name": "Kit-Kat", "price": "3.99", "img": "https://www.nestle.ro/sites/g/files/pydnoa501/files/styles/full_width_image_1920x795_/public/kitkat%20milk%20new%201.png?itok=dry6mfYJ",
+                 "discount": "30%", "category": "sweets" },
+                {  "id": 2,"name": "Oreo double cream biscuits", "price": "5.49", "img": "https://digitalcontent.api.tesco.com/v2/media/ghs/1c484aeb-4e6a-4dca-9e2d-151e707265e7/a14de7e6-75e7-43f3-9954-6127ef1a46c2_1735077723.jpeg?h=540&w=540",
+                 "discount": "20%", "category": "sweets" },
+                {  "id": 3,"name": "Dark chocolate with orange flavour", "price": "8.90", "img": "https://www.ohnuts.com/noapp/showImage.cfm/extra-large/Orange%20Leaf.jpg",
+                 "category": "sweets" },
+                {  "id": 4,"name": "Twix", "price": "2.99", "img": "https://m.media-amazon.com/images/I/61fmv+Y0ElL._SL1500_.jpg",
+                 "category": "sweets" },
+                {  "id": 5,"name": "Lancome La Vie Est Belle", "price": "39.50", "img": "https://s13emagst.akamaized.net/products/650/649574/images/res_147104359cf8f8fdf9ce16978eeea3a3.jpg",
+                 "discount": "30%", "category": "perfume" },
+                {  "id": 6,"name": "Mugler Alien", "price": "55.40", "img": "https://media.very.co.uk/i/very/KDPPK_SQ1_0000000088_NO_COLOR_SLf?$300x400_retinamobilex2$", 
+                "discount": "15%", "category": "perfume" },
+                {  "id": 7,"name": "Hugo Boss", "price": "33.80", "img": "https://static.beautytocare.com/media/catalog/product/cache/global/image/1300x1300/85e4522595efc69f496374d01ef2bf13/h/u/hugo-boss-hugo-man-eau-de-toilette-40ml_2.jpg",
+                 "discount": "25%", "category": "perfume" },
+                {  "id": 8,"name": "Yves Saint Laurent Libre", "price": "49.90", "img": "https://www.parfimo.ro/data/cache/thumb_min500_max1000-min500_max1000-12/products/268620/1604931197/yves-saint-laurent-libre-intense-apa-de-parfum-pentru-femei-50-ml-338296.jpg",
+                 "discount": "30%", "category": "perfume" },
+                {  "id": 9,"name": "Red lipstick Fenty Beauty", "price": "45.90", "img": "https://assets.teenvogue.com/photos/5a049c3252e9dc2ff73f6fe9/1:1/w_1080,h_1080,c_limit/fenty%20beauty.png", 
+                "category": "makeup" },
+                {  "id": 10,"name": "Black Mascara Sephora", "price": "35.60", "img": "https://www.sephora.com/productimages/sku/s1586072-main-zoom.jpg",
+                 "discount": "70%", "category": "makeup" },
+                {  "id": 11,"name": "Brown Eyeliner MAC", "price": "29.50", "img": "https://m.maccosmetics.com.ph/media/export/cms/products/640x600/mac_sku_MH5W02_640x600_0.jpg", 
+                "category": "makeup" },
+                {  "id": 12,"name": "Brow kit L'Oreal Paris", "price": "21.90", "img": "https://m.media-amazon.com/images/I/61v0KK8J2iL.jpg",
+                 "discount": "30%", "category": "makeup"}
             ]
 }

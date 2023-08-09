@@ -3,9 +3,9 @@
         {
             "title": "Sweets",
             "items": [
-                { "id": 1, "name": "Selected", "number": "(78)"},
-                { "id": 2, "name": "Option", "number": "(28)"},
-                { "id": 3, "name": "Selected", "number": "(9)"},
+                { "id": 1, "name": "Sweets", "number": "(78)"},
+                { "id": 2, "name": "Perfume", "number": "(28)"},
+                { "id": 3, "name": "Makeup", "number": "(9)"},
                 { "id": 4, "name": "Option", "number": "(12)"},
                 { "id": 5, "name": "Option", "number": "(10)"}
             ]
