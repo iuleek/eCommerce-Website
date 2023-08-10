@@ -16,8 +16,8 @@ export default function SwiperComponent({ cards }) {
         modules={[Navigation, EffectFade]}
         navigation
       >
-        {cards.map((card, index) => (
-          <SwiperSlide key={index}>
+        {cards.map((card) => (
+          <SwiperSlide key={card.id}>
             <ProductItem
               id={card.id}
               img={card.img}

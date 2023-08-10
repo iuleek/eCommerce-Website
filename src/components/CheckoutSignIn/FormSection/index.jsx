@@ -8,7 +8,7 @@ export default function FromSection() {
         <div className={styles.wrapper}>
             <Title level={5}>Fill it in and you're good to go!</Title>
             <div className={styles.formSection}>
-                <Stepper active={1}/>
+                <Stepper activeStep={1}/>
                 <Tabs />
             </div>
         </div>

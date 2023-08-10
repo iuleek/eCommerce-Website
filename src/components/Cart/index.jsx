@@ -2,22 +2,16 @@ import Styles from "./Cart.module.css";
 import CartHeader from "./CartHeader";
 import CartSubtotal from "./CartSubtotal";
 import CartItem from "./CartItem";
-import {
-  useCartContext,
-  cardActionType,
-} from "@/components/context/cartContext";
+import { useCartContext } from "@/components/context/cartContext";
 import { useEffect } from "react";
+import { calcPrice } from "../CartUtils";
 
 export default function CartWrapper() {
   const { state, dispatch } = useCartContext();
   const { cards } = state;
 
   useEffect(() => {
-    const finalPrice = state.cards.reduce((acc, curr) => {
-      return acc + parseFloat(curr.totalPrice);
-    }, 0);
-
-    dispatch({ type: cardActionType.SET_TOTAL_PRICE, payload: finalPrice });
+    calcPrice(state.cards, dispatch);
   }, [state.cards]);
 
   return (

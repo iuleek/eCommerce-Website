@@ -1,30 +1,28 @@
 import Styles from "./Quantity.module.css";
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { iconDimensions } from "@/components/Config";
 
 export default function Quantity({ setCount, count }) {
+  function handleDecrease() {
+    if (count > 0) {
+      setCount(count - 1);
+    }
+  };
+
+  function handleIncrease() {
+    setCount(count + 1);
+  };
+
   return (
     <div className={Styles.quantity}>
-      <button
-        type="button"
-        className={Styles.btn}
-        onClick={() => {
-          count > 0 ? setCount(count - 1) : setCount(0);
-        }}
-      >
-        <Image src="/minus-icon-white.svg" width={16} height={16} alt="icon" />
+      <button className={Styles.btn} type="button" onClick={handleDecrease}>
+        <Image src="/minus-icon-white.svg"  width={iconDimensions.small} height={iconDimensions.small} alt="icon" />
       </button>
+      
+      <p><span>{count} </span>x</p>
 
-      <p>
-        <span>{count} </span>x
-      </p>
-
-      <button
-        type="button"
-        className={Styles.btn}
-        onClick={() => setCount(count + 1)}
-      >
-        <Image src="/plus-icon-white.svg" width={16} height={16} alt="icon" />
+      <button className={Styles.btn} type="button" onClick={handleIncrease}>
+        <Image src="/plus-icon-white.svg" width={iconDimensions.small}  height={iconDimensions.small} alt="icon" />
       </button>
     </div>
   );

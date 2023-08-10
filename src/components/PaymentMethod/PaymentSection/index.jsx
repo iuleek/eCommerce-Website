@@ -10,7 +10,7 @@ export default function PaymentSection() {
         <div className={styles.paymentSection}>
             <Title level={5}>Fill it in and you're good to go!</Title>
             <div className={styles.paymentSection__options}>
-                <Stepper active={3} />
+                <Stepper activeStep={3} />
                 <div className={styles.paymentSection__methods}>
                     <DeliveryHeader btnText="Back to delivery method" btnHref="/checkout/delivery-method" titleText="Payment method" titleIcon="/credit-card-icon.svg" />
                     <PaymentOption iconSrc="/card-icon-btn.svg" text="Card" iconW={24} iconH={24} />

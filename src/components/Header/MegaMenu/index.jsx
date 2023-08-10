@@ -3,7 +3,7 @@ import styles from './MegaMenu.module.css'
 
 export default function MegaMenu({ dropDownObject, classMenu, show }) {
     return (
-        <div className={show ? `${styles.megaMenu} ${styles.show}` : `${styles.megaMenu}`}>
+        <div className={`${styles.megaMenu} ${show && styles.show}`}>
             <div className="container">
                 <div className={`${classMenu} ${styles.container__inner}`}>
                     {dropDownObject && dropDownObject.map((listItem, index) =>

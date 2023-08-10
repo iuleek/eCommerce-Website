@@ -3,8 +3,7 @@ import styles from './GuestForm.module.css'
 
 export default function GuestForm({ show }) {
     return (
-        <div className={show ? `${styles.guestForm} ${styles.show}` : `${styles.guestForm}`}>
-            <h6 className={styles.guestForm__title}>Personal details</h6>
+<div className={`${styles.guestForm} ${show ? styles.show : ''}`}>            <h6 className={styles.guestForm__title}>Personal details</h6>
             <form className={styles.guestForm__form}>
                 <input className={styles.guestForm__input} type="email" placeholder="E-mail" name="email" />
                 <hr className={styles.guestForm__line}></hr>
