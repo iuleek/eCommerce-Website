@@ -5,11 +5,7 @@
 }
 .guestForm {
     padding: 50px 100px 65px 100px;
-    display: none;
     background-color: #fff;
-}
-.show {
-    display: block;
 }
 .formSection {
     max-width: 330px;

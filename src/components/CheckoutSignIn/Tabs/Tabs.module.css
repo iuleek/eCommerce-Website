@@ -18,3 +18,10 @@
     border: none;
     border-bottom: 4px solid #394B59;
 }
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
