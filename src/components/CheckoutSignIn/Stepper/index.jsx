@@ -1,29 +1,12 @@
-import Link from "next/link";
 import Styles from "./Stepper.module.css";
+import Step from "./Step";
 
-export default function Stepper({ active }) {
+export default function Stepper({ activeStep }) {
   return (
     <div className={Styles.stepper}>
-      <Link className={Styles.stepper_link} href="/checkout/personal-details">
-        <div className={active === 1 ? `${Styles.stepper_item} ${Styles.stepper_active}` : `${Styles.stepper_item}`}>
-          <span>1</span>
-          <p>Personal Details</p>
-        </div>
-      </Link>
-      <span className={Styles.divider}></span>
-      <Link className={Styles.stepper_link} href="/checkout/delivery-method">
-        <div className={active === 2 ? `${Styles.stepper_item} ${Styles.stepper_active}` : `${Styles.stepper_item}`}>
-          <span>2</span>
-          <p>Delivery Details</p>
-        </div>
-      </Link>
-      <span className={Styles.divider}></span>
-      <Link className={Styles.stepper_link} href="/checkout/payment-method">
-        <div className={active === 3 ? `${Styles.stepper_item} ${Styles.stepper_active}` : `${Styles.stepper_item}`}>
-          <span>3</span>
-          <p>Payment</p>
-        </div>
-      </Link>
+      <Step stepNumber={1} label="Personal Details" href="/checkout/personal-details" active={activeStep} />
+      <Step stepNumber={2} label="Delivery Details" href="/checkout/delivery-method" active={activeStep} />
+      <Step stepNumber={3} label="Payment" href="/checkout/payment-method" active={activeStep} />
     </div>
   );
 }

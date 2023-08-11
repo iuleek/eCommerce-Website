@@ -4,21 +4,15 @@ import Image from "next/image";
 import ItemSmall from "./item-small";
 import { useCartContext, cardActionType } from "@/components/context/cartContext";
 import { useEffect } from "react";
+import { calcPrice } from "../CartUtils";
 
 export default function CartSmall() {
   const { state, dispatch } = useCartContext();
   const { cards } = state;
   
   useEffect(() => {
-    const finalPrice = state.cards.reduce((acc, curr) => {
-      return acc + parseFloat(curr.totalPrice);
-    }, 0);
-
-    dispatch({ type: cardActionType.SET_TOTAL_PRICE, payload: finalPrice });
-
-    // const feePrice = (Number(finalPrice) + 4.9).toFixed(2);
-    // console.log((Number(finalPrice) + 4.9).toFixed(2));
-  }, cards);
+    calcPrice(cards, dispatch); 
+  }, [state.cards]);
 
   return (
     <div className={Styles.cart_small}>

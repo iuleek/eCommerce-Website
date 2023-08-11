@@ -8,11 +8,11 @@ export default function FilterOption({ text, items, id }) {
     const item = filters.find((filter) => {
         return filter.id === id;
     });
-    const handleFilterClick = event => {
+    function handleFilterClick() {
         if (item === undefined) {
             addFilter({ text, items, id });
         }
-        if (item !== undefined) {
+        else {
             removeFilter({ text, items, id });
         }
     }

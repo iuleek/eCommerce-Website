@@ -20,7 +20,7 @@ export default function BreadCrumbs() {
                 <div className={styles.breadCrumbs}>
                     <Link className={styles.breadCrumbs__link} href="/">Home</Link>
                     {pathSegments.map((segment, index) => (
-                            <Link key={index} href={`/${pathSegments.slice(0, index + 1).join('/')}`} className={styles.breadCrumbs__link}>{getTag(segment)}</Link>
+                            <Link key={getTag(segment)} href={`/${pathSegments.slice(0, index + 1).join('/')}`} className={styles.breadCrumbs__link}>{getTag(segment)}</Link>
                     ))}
                 </div>
             </div>

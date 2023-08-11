@@ -32,7 +32,3 @@ export default function HeroHeader() {
         </section>
     );
 }
-
-{/* <Title level = {2} text="YAY! KING'S DAY!" />
-    <Title level = {3} text="Explore the items you'll love"/>
-    <Title level = {4} preText="Grab a" boldText="treat basket" postText=" for a special occasion"/> */}

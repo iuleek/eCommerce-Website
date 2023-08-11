@@ -3,7 +3,7 @@ import styles from './SignInForm.module.css'
 
 export default function SignInForm({show}) {
     return (
-        <div className={show ? `${styles.signInSection} ${styles.show}` : `${styles.signInSection}`}>
+        <div className={styles.signInSection}>
             <Logo />
             <form className={styles.signInForm}>
                 <input className={styles.signInForm__input} type="email" placeholder="E-mail" name="email" />

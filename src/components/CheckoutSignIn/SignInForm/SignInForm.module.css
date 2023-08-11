@@ -1,9 +1,5 @@
 .signInSection {
-    display: none;
     background-color: #fff;
-}
-
-.show {
     display: flex;
     flex-direction: column;
     padding: 50px 100px 65px 100px;

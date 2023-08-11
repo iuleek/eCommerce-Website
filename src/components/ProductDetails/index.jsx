@@ -3,7 +3,6 @@ import Characteristics from "./Characteristics";
 import Description from "./Description";
 import PurchaseInfo from "./PurchaseInfo";
 import ProductSwiper from './ProductSwiper'
-import images from './photos.json'
 import styles from './ProductDetails.module.css'
 import BreadCrumbs from "../BreadCrumbs";
 

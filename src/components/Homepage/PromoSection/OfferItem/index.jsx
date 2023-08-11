@@ -3,6 +3,7 @@ import QuantityButton from '@/components/QuantityButton';
 import Image from 'next/image';
 
 export default function OfferItem({ imgSource, style = "dark", text, price }) {
+    const priceSplit = price.split(".")[1];
     return (
         <div>
             {style === "dark" &&
@@ -16,14 +17,14 @@ export default function OfferItem({ imgSource, style = "dark", text, price }) {
                     <div className={styles.offerInfo}>
                         <p className={styles.text}>{text}</p>
                         <p className={styles.separator}>|</p>
-                        <p className={styles.price}>{~~price}.<sup>{price.split(".")[1]}</sup></p>
+                        <p className={styles.price}>{~~price}.<sup>{priceSplit}</sup></p>
                     </div>
                 </div>
             }
             {style === "light" &&
                 <div >
                     <div className={`${styles.offerComponent} ${styles.light}`}>
-                        <Image src={imgSource} width={170} height={90}  alt="product"/>
+                        <Image src={imgSource} width={170} height={90} alt="product" />
                         <div className={styles.addBtn}>
                             <QuantityButton imgsrc="/plus-icon-black.svg" light={true} />
                         </div>
@@ -31,7 +32,7 @@ export default function OfferItem({ imgSource, style = "dark", text, price }) {
                     <div className={styles.offerInfo}>
                         <p className={styles.text}>{text}</p>
                         <p className={styles.separator}>|</p>
-                        <p className={styles.price}>{~~price}.<sup>{price.split(".")[1]}</sup></p>
+                        <p className={styles.price}>{~~price}.<sup>{priceSplit}</sup></p>
                     </div>
                 </div>
             }

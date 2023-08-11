@@ -11,7 +11,7 @@ export default function DeliverySection() {
         <div className={styles.deliverySection}>
         <Title level={5}>Fill it in and you're good to go!</Title>
         <div className={styles.deliverySection__options}>
-            <Stepper active={2}/>
+            <Stepper activeStep={2}/>
             <div className={styles.deliverySection__methods}>
                 <DeliveryHeader btnText="Back to personal details" titleText="Delivery method" titleIcon="/truck-icon.svg" btnHref="/checkout/personal-details"/>
                 <DeliveryOption price="4.00€" title="Standard delivery" time="Delivered before Saturday 27th" />

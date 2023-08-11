@@ -1,9 +1,9 @@
 import InputBar from '@/components/Header/InputBar'
 import styles from './GuestForm.module.css'
 
-export default function GuestForm({ show }) {
+export default function GuestForm() {
     return (
-        <div className={show ? `${styles.guestForm} ${styles.show}` : `${styles.guestForm}`}>
+        <div className={styles.guestForm}>
             <h6 className={styles.guestForm__title}>Personal details</h6>
             <form className={styles.guestForm__form}>
                 <input className={styles.guestForm__input} type="email" placeholder="E-mail" name="email" />
@@ -21,7 +21,7 @@ export default function GuestForm({ show }) {
                     <p className={styles.text}>Country</p>
                     <p className={styles.country}>🇳🇱 Netherlands</p>
                 </div>
-                
+
                 <div className={styles.guestForm__footer__right}>
                     <p className={styles.text}>Change Country</p>
                 </div>

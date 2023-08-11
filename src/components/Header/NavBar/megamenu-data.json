@@ -1,0 +1,88 @@
+{
+  "megaMenuData": [
+    {
+      "menuType": "Foods",
+      "menuId": 1,
+      "menuItems": [
+        {
+          "id": 10,
+          "title": "Shop",
+          "content": [
+            { "id": 101, "label": "Placeholder 1" },
+            { "id": 102, "label": "Placeholder 1" },
+            { "id": 103, "label": "Placeholder 1" }
+          ]
+        },
+        {
+          "id": 20,
+          "title": "Shop2",
+          "content": [
+            { "id": 104, "label": "Placeholder 2" },
+            { "id": 105, "label": "Placeholder 2" },
+            { "id": 106, "label": "Placeholder 2" }
+          ]
+        },
+        {
+          "id": 30,
+          "title": "Shop3",
+          "content": [
+            { "id": 107, "label": "Placeholder 3" },
+            { "id": 108, "label": "Placeholder 3" },
+            { "id": 109, "label": "Placeholder 3" }
+          ]
+        },
+        {
+          "id": 40,
+          "title": "Shop4",
+          "content": [
+            { "id": 110, "label": "Placeholder 4" },
+            { "id": 111, "label": "Placeholder 4" },
+            { "id": 112, "label": "Placeholder 4" }
+          ]
+        }
+      ]
+    },
+    {
+      "menuType": "Products",
+      "menuId": 2,
+      "menuItems": [
+        {
+          "id": 50,
+          "title": "Something",
+          "content": [
+            { "id": 113, "label": "Candy 1" },
+            { "id": 114, "label": "Candy 1" },
+            { "id": 115, "label": "Candy 1" }
+          ]
+        },
+        {
+          "id": 60,
+          "title": "Something2",
+          "content": [
+            { "id": 116, "label": "Candy 2" },
+            { "id": 117, "label": "Candy 2" },
+            { "id": 118, "label": "Candy 2" }
+          ]
+        },
+        {
+          "id": 70,
+          "title": "Something3",
+          "content": [
+            { "id": 119, "label": "Candy 3" },
+            { "id": 120, "label": "Candy 3" },
+            { "id": 121, "label": "Candy 3" }
+          ]
+        },
+        {
+          "id": 80,
+          "title": "Something4",
+          "content": [
+            { "id": 122, "label": "Candy 4" },
+            { "id": 123, "label": "Candy 4" },
+            { "id": 124, "label": "Candy 4" }
+          ]
+        }
+      ]
+    }
+  ]
+}
