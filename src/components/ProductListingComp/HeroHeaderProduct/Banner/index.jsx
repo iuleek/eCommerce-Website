@@ -1,6 +1,6 @@
 import styles from './Banner.module.css'
 import Title from '@/components/Title'
-
+import React from "react"
 export default function Banner() {
     return (
         <div className={styles.banner}>

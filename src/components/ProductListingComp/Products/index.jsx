@@ -3,7 +3,7 @@ import styles from './Products.module.css'
 import data from './product-listing.json'
 import { FiltersContext } from '@/components/Context/FiltersContext';
 import { useContext } from 'react';
-
+import React from "react"
 export default function Products() {
     const { filters } = useContext(FiltersContext);
     let labels = [];

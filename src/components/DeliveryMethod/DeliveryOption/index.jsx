@@ -1,5 +1,5 @@
 import styles from './DeliveryOption.module.css'
-
+import React from "react"
 export default function DeliveryOption({ price, title, time }) {
     return (
         <div className={styles.deliveryOption}>

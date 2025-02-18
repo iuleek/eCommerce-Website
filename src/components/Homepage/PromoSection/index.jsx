@@ -5,7 +5,7 @@ import Button from '@/components/Button';
 import OfferButton from './OfferButton';
 import OfferItem from './OfferItem';
 import Link from 'next/link';
-
+import React from "react"
 export default function PromoSection() {
     return (
         <section className={styles.promoSection}>
@@ -13,7 +13,7 @@ export default function PromoSection() {
             <div className={styles.container__inner}>
                 <GridComponent>
                     <div className={styles.leftSide}>
-                        <Title level={2}>YAY! KING'S DAY!</Title>
+                        <Title level={2}>YAY! KING&aposS DAY!</Title>
                         <OfferButton btnText="⏰ This offer valid only untill 1st of May" />
                         <Title level={4}>Grab a <strong>treat basket</strong> for a special occasion</Title>
                         <p className={styles.leftSide__paragraph}>

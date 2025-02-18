@@ -1,5 +1,5 @@
 import styles from './CategoryWrapper.module.css'
-
+import React from "react"
 export default function CategoryWrapper({big, small}) {
     return (
         <div className={styles.categoryWrapper}>

@@ -2,7 +2,7 @@ import Title from '@/components/Title'
 import styles from './DeliveryHeader.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
-
+import React from "react"
 export default function DeliveryHeader({ btnText, titleText, titleIcon, btnHref }) {
     return (
         <div className={styles.deliveryHeader}>

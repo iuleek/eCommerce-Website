@@ -2,7 +2,7 @@ import Title from '@/components/Title';
 import styles from './Contact.module.css'
 import ContactForm from './ContactForm';
 import Questions from './Questions';
-
+import React from "react"
 export default function Contact() {
     return (
         <div id="contact" className={styles.contact}>

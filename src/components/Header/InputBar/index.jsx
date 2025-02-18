@@ -1,5 +1,5 @@
 import styles from "./InputBar.module.css"
-
+import React from "react"
 export default function InputBar({text, inputType, className}) {
 
     return (

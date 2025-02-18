@@ -3,11 +3,11 @@ import styles from './ThanksSection.module.css'
 import Image from 'next/image'
 import Button from '@/components/Button'
 import Link from 'next/link'
-
+import React from "react"
 export default function ThanksSection() {
     return (
         <div className={styles.leftSide}>
-            <Title level={5}>Fill it in and you're good to go!</Title>
+            <Title level={5}>Fill it in and you&aposre good to go!</Title>
             <div className={styles.thanksSection}>
                 <div className={styles.thanksSection__header}>
                     <div className={styles.header__circle}>

@@ -1,6 +1,6 @@
 import InputBar from '@/components/Header/InputBar'
 import styles from './GuestForm.module.css'
-
+import React from "react"
 export default function GuestForm({ show }) {
     return (
         <div className={show ? `${styles.guestForm} ${styles.show}` : `${styles.guestForm}`}>

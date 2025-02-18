@@ -1,7 +1,7 @@
 import Button from "@/components/Button"
 import styles from './CategoryItemBig.module.css'
 import Link from "next/link"
-
+import React from "react"
 export default function CategoryItemBig({ text, btnText }) {
     return (
         <div className={styles.categoryItemBig}>

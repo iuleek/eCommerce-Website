@@ -2,6 +2,7 @@ import Styles from "./Cart.module.css";
 import CartHeader from "./CartHeader";
 import CartSubtotal from "./CartSubtotal";
 import CartItem from "./CartItem";
+import React  from 'react';
 import {
   useCartContext,
   cardActionType,

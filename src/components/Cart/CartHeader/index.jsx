@@ -3,7 +3,7 @@ import Image from "next/image";
 import Title from "@/components/title";
 import Button from "@/components/Button";
 import Link from "next/link";
-
+import React from "react"
 export default function CartHeader({title, btnText}) {
   return (
     <div className={styles.cart_header}>

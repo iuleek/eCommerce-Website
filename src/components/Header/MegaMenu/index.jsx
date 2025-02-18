@@ -1,6 +1,6 @@
 import List from '../../List'
 import styles from './MegaMenu.module.css'
-
+import React from "react"
 export default function MegaMenu({ dropDownObject, classMenu, show }) {
     return (
         <div className={show ? `${styles.megaMenu} ${styles.show}` : `${styles.megaMenu}`}>

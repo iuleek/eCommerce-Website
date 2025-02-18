@@ -1,8 +1,7 @@
-import styles from './Checkout.module.css'
 import CheckoutLayout from '../CheckoutLayout'
 import CartSmall from '../CartSmall'
 import FormSection from './FormSection'
-
+import React from "react"
 export default function CheckoutSection() {
     return (
         <>

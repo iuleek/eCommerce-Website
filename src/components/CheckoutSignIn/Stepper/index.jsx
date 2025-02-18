@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Styles from "./Stepper.module.css";
-
+import React from "react"
 export default function Stepper({ active }) {
   return (
     <div className={Styles.stepper}>

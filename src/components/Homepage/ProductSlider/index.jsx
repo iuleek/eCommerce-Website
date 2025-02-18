@@ -1,12 +1,12 @@
 import Title from "@/components/Title";
 import styles from './ProductSlider.module.css'
 import TabsComponent from "./TabsComponent";
-
+import React from "react"
 export default function ProductSlider() {
     return (
         <div className={styles.productSection}>
             <div className="container">
-                <Title level={3}>Explore the items you'll love</Title>
+                <Title level={3}>Explore the items you&aposll love</Title>
                 <TabsComponent />
             </div>
         </div>

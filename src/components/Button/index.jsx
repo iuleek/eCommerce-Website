@@ -1,6 +1,6 @@
 import styles from './Button.module.css';
 import Image from 'next/image';
-
+import React from "react"
 export default function Button({ style = "", text, iconSrc, imgPosition = "right" }) {
 
   return (

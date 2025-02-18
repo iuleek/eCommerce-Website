@@ -1,6 +1,6 @@
 import styles from './List.module.css'
 import Link from 'next/link'
-
+import React from "react"
 export default function List({object, option, headerList, classTitle, classList, classListItem, classListLink}) {
 
     return (

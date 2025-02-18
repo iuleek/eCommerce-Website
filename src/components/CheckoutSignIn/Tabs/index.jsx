@@ -2,7 +2,7 @@ import GuestForm from '../GuestForm'
 import SignInForm from '../SignInForm'
 import styles from './Tabs.module.css'
 import { useState } from 'react'
-
+import React from "react"
 export default function Tabs() {
 
     const [activeForm, setActiveForm] = useState(2);

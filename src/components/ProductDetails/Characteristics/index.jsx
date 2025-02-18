@@ -1,6 +1,6 @@
 import styles from './Characteristics.module.css'
 import Title from '@/components/Title'
-
+import React from "react"
 export default function Characteristics({ title, object }) {
     return (
         <div className={styles.characteristics}>

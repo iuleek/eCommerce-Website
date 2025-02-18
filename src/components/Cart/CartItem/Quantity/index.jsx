@@ -1,7 +1,7 @@
 import Styles from "./Quantity.module.css";
 import Image from "next/image";
-import { useEffect, useState } from "react";
-
+//import { useEffect, useState } from "react";
+import React from "react"
 export default function Quantity({ setCount, count }) {
   return (
     <div className={Styles.quantity}>

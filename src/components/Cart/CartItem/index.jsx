@@ -7,7 +7,7 @@ import {
   cardActionType,
 } from "@/components/context/cartContext";
 import ButtonDelete from "@/components/ButtonDelete";
-
+import React from "react"
 export default function CartItem(props) {
   const { id, img, title, currPrice } = props;
   const initialCount = 1;

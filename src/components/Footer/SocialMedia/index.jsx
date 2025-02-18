@@ -1,7 +1,7 @@
 import FooterContact from '../FooterContact'
 import SocialMediaIcon from '../SocialMediaIcon'
 import styles from './SocialMedia.module.css'
-
+import React from "react"
 export default function SocialMedia() {
     return (
         <div>

@@ -3,7 +3,7 @@ import data from '../products.json';
 import { useState } from "react";
 import SwiperComponent from '../SwiperComponent';
 import styles from './TabsComponent.module.css'
-
+import React from "react"
 export default function TabsComponent() {
     var dataObject = data;
 

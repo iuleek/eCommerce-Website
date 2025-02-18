@@ -1,5 +1,5 @@
 import Styles from "./CartSubtotal.module.css";
-
+import React from "react"
 export default function CartSubtotal({ subtotal }) {
   return (
     <div className={Styles.cart_subtotal}>

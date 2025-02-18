@@ -1,5 +1,5 @@
 import styles from './ContactBtn.module.css'
-
+import React from "react"
 export default function ContactBtn({ text, type = "email" }) {
     return (
         <>

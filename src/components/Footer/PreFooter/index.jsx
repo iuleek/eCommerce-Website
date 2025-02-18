@@ -1,7 +1,7 @@
 import Logo from "@/components/Logo"
 import Rights from '../Rights'
 import styles from './PreFooter.module.css'
-
+import React from "react"
 export default function PreFooter() {
     return (
         <div className={styles.preFooter}>

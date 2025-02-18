@@ -7,7 +7,7 @@ import {
   useCartContext,
   cardActionType,
 } from "@/components/context/cartContext";
-
+import React from "react"
 export default function ItemSmall(props) {
   const { id, img, title, currPrice } = props;
   const initialCount = 1;

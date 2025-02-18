@@ -5,11 +5,11 @@ import Button from '@/components/Button'
 import Stepper from '@/components/CheckoutSignIn/Stepper'
 import Title from '@/components/Title'
 import Link from 'next/link'
-
+import React from "react"
 export default function DeliverySection() {
     return (
         <div className={styles.deliverySection}>
-        <Title level={5}>Fill it in and you're good to go!</Title>
+        <Title level={5}>Fill it in and you&aposre good to go!</Title>
         <div className={styles.deliverySection__options}>
             <Stepper active={2}/>
             <div className={styles.deliverySection__methods}>

@@ -1,6 +1,6 @@
 import styles from './HeorHeader.module.css'
 import Banner from './Banner'
-
+import React from "react"
 export default function HeroHeaderProduct() {
     return (
         <div className={styles.heroHeader}>

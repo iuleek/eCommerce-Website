@@ -1,7 +1,7 @@
 import styles from "./BottomBtn.module.css";
 import Button from "@/components/button";
 import Link from "next/link";
-
+import React from "react"
 export default function BottomBtn({href}) {
   return (
     <div className={styles.bottom_btn}>

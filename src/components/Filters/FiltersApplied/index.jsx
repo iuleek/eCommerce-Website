@@ -4,7 +4,7 @@ import Products from '@/components/ProductListingComp/Products';
 import { useContext } from 'react';
 import { FiltersContext } from '@/components/Context/FiltersContext';
 import AppliedOption from './AppliedOption';
-
+import React from "react"
 export default function FiltersApplied() {
     const { filters } = useContext(FiltersContext);
 

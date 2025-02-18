@@ -2,7 +2,7 @@ import styles from './QuantityButton.module.css'
 import Image from 'next/image';
 import { useEffect } from "react";
 import Link from 'next/link';
-
+import React from "react"
 import { useCartContext, cardActionType } from "../context/cartContext";
 
 export default function Quantity(props) {

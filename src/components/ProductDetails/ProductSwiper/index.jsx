@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 import "swiper/css/thumbs";
 
 // import required modules
-import { FreeMode, Navigation, Thumbs, direction } from "swiper/modules";
+import { FreeMode, Navigation, Thumbs } from "swiper/modules";
 
 export default function SwiperSection() {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);

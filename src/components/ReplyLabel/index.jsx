@@ -1,6 +1,6 @@
 import styles from './ReplyLabel.module.css'
 import Image from 'next/image'
-
+import React from "react"
 export default function ReplyLabel({text, imgSrc}) {
     return (
         <div className={styles.label}>

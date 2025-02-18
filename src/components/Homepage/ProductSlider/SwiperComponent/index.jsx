@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, EffectFade } from "swiper/modules";
 import ProductItem from "@/components/ProductItem";
-
+import React from "react"
 import "swiper/css";
 
 import "swiper/css/bundle";
@@ -30,4 +30,4 @@ export default function SwiperComponent({ cards }) {
       </Swiper>
     </div>
   );
-};
+}

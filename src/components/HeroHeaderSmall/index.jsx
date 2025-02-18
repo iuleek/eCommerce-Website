@@ -2,7 +2,7 @@ import Styles from "./HeroHeaderSmall.module.css";
 import Image from "next/image";
 import Button from "../Button"
 import Link from "next/link";
-
+import React from "react"
 export default function HeroHeaderSmall() {
   return (
     <section className={Styles.banner_small}>

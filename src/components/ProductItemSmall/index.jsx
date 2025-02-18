@@ -1,6 +1,6 @@
 import styles from './ProductItemSmall.module.css'
 import QuantityButton from '../QuantityButton'
-
+import React from "react"
 export default function ProductItemSmall(props) {
     const { id, imgSrc, currPrice } = props;
 

@@ -2,7 +2,7 @@ import List from '../../List'
 import Subscribe from '../Subscribe';
 import SocialMedia from '../SocialMedia';
 import styles from './MainFooter.module.css'
-
+import React from "react"
 export default function MainFooter() {
     const obj1 = {
         "title": "Shop",

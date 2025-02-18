@@ -1,8 +1,7 @@
 import CategoryItemBig from "./CategoryItemBig";
-import CategoryWrapper from "./CategoryWrapper";
 import styles from './CategoryGrid.module.css'
 import CategoryItem from "./CategoryItem";
-
+import React from "react"
 export default function CategoryGrid() {
     return (
         <div className={styles.categoryGrid}>

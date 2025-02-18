@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import styles from './PaymentOption.module.css'
 import Image from 'next/image'
-
+import React from "react"
 export default function PaymentOption({ iconSrc, text, iconW, iconH }) {
     return (
         <Link className={styles.paymentOption__link} href="/checkout/success">

@@ -1,5 +1,5 @@
 import styles from './Title.module.css'
-
+import React from "react"
 export default function Title({ level = 2, children }) {
     return (
         <>

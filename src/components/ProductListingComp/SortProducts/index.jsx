@@ -1,5 +1,5 @@
 import styles from './SortProducts.module.css'
-
+import React from "react"
 export default function SortProducts() {
     return (
         <details className={styles.customDetails}>

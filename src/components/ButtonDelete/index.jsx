@@ -5,7 +5,7 @@ import {
   cardActionType,
 } from "@/components/context/cartContext";
 import { useEffect } from "react";
-
+import React from "react"
 export default function ButtonDelete({ id }) {
   const { state, dispatch } = useCartContext();
 

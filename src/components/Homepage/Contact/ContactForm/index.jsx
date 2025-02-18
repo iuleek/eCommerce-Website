@@ -1,6 +1,6 @@
 import styles from './ContactForm.module.css'
 import ReplyLabel from '../../../ReplyLabel'
-
+import React from "react"
 export default function ContactForm() {
     return (
         <div className={styles.contactSection}>

@@ -1,6 +1,6 @@
 import styles from './Description.module.css'
 import Title from '@/components/Title'
-
+import React from "react"
 export default function Description({ title, description, object }) {
     return (
         <div className={styles.description}>

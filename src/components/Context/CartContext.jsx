@@ -1,5 +1,5 @@
-import { useReducer, createContext, useContext, useState } from "react";
-
+import { useReducer, createContext, useContext} from "react";
+import React from "react"
 export const cardActionType = {
   ADD_TO_CART: "addToCart",
   UPDATE_CARDS: "updateCards",

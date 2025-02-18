@@ -1,7 +1,7 @@
 import Button from '@/components/Button';
 import styles from './CategoryItem.module.css'
 import Link from 'next/link';
-
+import React from "react"
 export default function CategoryItem({ text, btnDark, btnText, btnLight }) {
     return (
         <div className={styles.categoryItem}>

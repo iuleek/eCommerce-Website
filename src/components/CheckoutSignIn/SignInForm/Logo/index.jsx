@@ -1,6 +1,6 @@
 import styles from './Logo.module.css'
 import Image from 'next/image';
-
+import React from "react"
 export default function Logo() {
     return (
         <div className={styles.logoSection}>
@@ -8,7 +8,7 @@ export default function Logo() {
                 <Image src="/logoForm.svg" alt="Logo" width={145} height={30} />
                 <p className={styles.logo__text}>| <span><em>members</em></span></p>
             </div>
-            <p className={styles.logo__subtext}>Not a member? Don't hesitate to <span className={styles.signup}>sign up</span></p>
+            <p className={styles.logo__subtext}>Not a member? Don&apost hesitate to <span className={styles.signup}>sign up</span></p>
         </div>
 
     );

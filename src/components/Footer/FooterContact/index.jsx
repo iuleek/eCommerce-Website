@@ -1,5 +1,5 @@
 import styles from './FooterContact.module.css'
-
+import React from "react"
 export default function Subscribe({ text, subtext }) {
     return (
         <div className={styles.subscribe}>

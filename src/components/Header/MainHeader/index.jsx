@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import Logo from "../../Logo";
 import InputBar from "../InputBar";
 import Shop from "../Shop";
@@ -5,7 +6,7 @@ import User from "../User"
 import styles from "./MainHeader.module.css"
 import NavBar from "../NavBar";
 import { useCartContext } from "@/components/context/cartContext";
-
+import React from "react"
 export default function MainHeader() {
     const { state } = useCartContext();
     const obj1 = {

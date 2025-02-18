@@ -1,6 +1,6 @@
 import styles from './FilterList.module.css'
 import FilterOption from '../FilterOption'
-
+import React from "react"
 export default function FilterList({data}) {
     return (
         <details className={styles.customDetails}>

@@ -1,6 +1,6 @@
 import Logo from './Logo'
 import styles from './SignInForm.module.css'
-
+import React from "react"
 export default function SignInForm({show}) {
     return (
         <div className={show ? `${styles.signInSection} ${styles.show}` : `${styles.signInSection}`}>

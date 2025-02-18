@@ -1,7 +1,7 @@
 import FooterContact from '../FooterContact'
 import InputBar from '@/components/Header/InputBar';
 import styles from './Subscribe.module.css'
-
+import React from "react"
 export default function Subscribe() {
     return (
         <div>

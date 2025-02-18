@@ -1,7 +1,7 @@
 import styles from './OfferItem.module.css'
 import QuantityButton from '@/components/QuantityButton';
 import Image from 'next/image';
-
+import React from "react"
 export default function OfferItem({ imgSource, style = "dark", text, price }) {
     return (
         <div>

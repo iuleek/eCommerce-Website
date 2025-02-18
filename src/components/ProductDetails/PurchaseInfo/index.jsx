@@ -3,7 +3,7 @@ import styles from './PurchaseInfo.module.css'
 import Button from '@/components/Button';
 import InfoTag from '@/components/InfoTag';
 import Tag from '@/components/Tag';
-
+import React from "react"
 export default function PurchaseInfo({title, info, price}) {
     price = (price.split("$")[1]);
     return (

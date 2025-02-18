@@ -4,11 +4,11 @@ import PaymentOption from '../PaymentOption'
 import Title from '@/components/Title'
 import Stepper from '@/components/CheckoutSignIn/Stepper'
 import Image from 'next/image'
-
+import React from "react"
 export default function PaymentSection() {
     return (
         <div className={styles.paymentSection}>
-            <Title level={5}>Fill it in and you're good to go!</Title>
+            <Title level={5}>Fill it in and you&aposre good to go!</Title>
             <div className={styles.paymentSection__options}>
                 <Stepper active={3} />
                 <div className={styles.paymentSection__methods}>

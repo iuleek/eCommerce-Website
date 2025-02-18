@@ -1,7 +1,6 @@
-import FilterOption from '../FilterOption'
 import styles from './FilterSection.module.css'
 import FilterList from '../FilterList'
-
+import React from "react"
 export default function FilterSection({ obj }) {
 
     return (

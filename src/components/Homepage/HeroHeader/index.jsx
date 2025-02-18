@@ -4,7 +4,7 @@ import Button from '../../Button'
 import HeroImage from './HeroImage';
 import styles from './HeroHeader.module.css'
 import Link from 'next/link';
-
+import React from "react"
 export default function HeroHeader() {
     return (
         <section className={styles.heroHeader}>

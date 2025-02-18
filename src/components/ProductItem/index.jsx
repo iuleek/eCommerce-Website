@@ -1,7 +1,7 @@
 import styles from "./ProductItem.module.css";
 import Link from "next/link";
 import QuantityButton from '../QuantityButton'
-
+import React from "react"
 export default function ProductCard({ id, img, discount, title, currPrice }) {
   const props = { id, img, discount, title, currPrice } ;
   
